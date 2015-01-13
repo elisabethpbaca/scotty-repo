@@ -1,4 +1,6 @@
 #include "common.h"
+
+// Note: This code probably works, try after the pins are updated in master and then you merge that into here, dummy.
 int dutyCycle = 75;
 DirectionToMove moveDirection = forwardDir;
 
