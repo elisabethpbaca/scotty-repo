@@ -20,13 +20,9 @@ void loop() {
  //Calculate the distance (in cm) based on the speed of sound.
  distance = duration/58.2;
  
-  if(distance<15){
-    robotstop();
-  }
+  left();
   
-  else{
-    forward();
-  }
+  
   
   
   

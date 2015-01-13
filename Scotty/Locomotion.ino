@@ -3,10 +3,19 @@
  void left() {
      Serial.println("left");
      digitalWrite(LEDPin, HIGH);
-     digitalWrite(wheelLeftPos, LOW); 
-     digitalWrite(wheelRightPos, HIGH);
+     digitalWrite(wheelLeftPos, LOW) 
+     digitalWrite(wheelRightPos, LOW);
      digitalWrite(wheelLeftNeg, HIGH );
      digitalWrite(wheelRightNeg, LOW ); 
+ }
+ 
+ void right()  {
+     Serial.println("right");
+     digitalWrite(LEDPin, HIGH);
+     digitalWrite(wheelLeftPos,HIGH); 
+     digitalWrite(wheelRightPos,LOW);
+     digitalWrite(wheelLeftNeg,LOW);
+     digitalWrite(wheelRightNeg,LOW);
  }
  
  void robotstop()  {
@@ -27,14 +36,6 @@
      digitalWrite(wheelRightNeg, LOW );
   }
   
- void right()  {
-     Serial.println("right");
-     digitalWrite(LEDPin, HIGH);
-     digitalWrite(wheelLeftPos,HIGH); 
-     digitalWrite(wheelRightPos,LOW);
-     digitalWrite(wheelLeftNeg,LOW);
-     digitalWrite(wheelRightNeg,HIGH);
- }
  
  void backward() {
      Serial.println("backward");
