@@ -11,7 +11,6 @@
  on 10 Nov 2012.
  */
 
-# This is a change!!!
 
 #define echoPin 2 // Echo Pin
 #define trigPin 3 // Trigger Pin
