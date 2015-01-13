@@ -5,6 +5,7 @@ void setup() {
  pinMode(trigPin, OUTPUT);
  pinMode(echoPin, INPUT);
  pinMode(LEDPin, OUTPUT); // Use LED indicator (if required)
+ 
  pinMode(wheelLeftPos, OUTPUT);
  pinMode(wheelRightPos, OUTPUT);
  pinMode(wheelLeftNeg, OUTPUT);

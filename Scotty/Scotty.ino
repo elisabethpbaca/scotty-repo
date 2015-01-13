@@ -15,18 +15,10 @@ void loop() {
  
  digitalWrite(trigPin, LOW);
  duration = pulseIn(echoPin, HIGH);
- Serial.print(distance);
- Serial.print("\n");
+ //Serial.print(distance);
+ //Serial.print("\n");
  //Calculate the distance (in cm) based on the speed of sound.
- distance = duration/58.2;
+ distance = duration/58.2;  
  
-  left();
-  
-  
-  
-  
-  
-  
-  
-}
-    
+ Drive();
+}  
