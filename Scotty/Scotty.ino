@@ -1,32 +1,61 @@
 #include "common.h"
 
-int maximumRange = 50; // Maximum range needed
-int minimumRange = 10; // Minimum range needed
-long duration, distance; // Duration used to calculate distance 
-
 void loop() {
-/* The following trigPin/echoPin cycle is used to determine the
- distance of the nearest object by bouncing soundwaves off of it. */ 
- digitalWrite(trigPin, LOW); 
- delayMicroseconds(20); 
 
- digitalWrite(trigPin, HIGH);
- delayMicroseconds(100); 
- 
- digitalWrite(trigPin, LOW);
- duration = pulseIn(echoPin, HIGH);
- Serial.print(distance);
- Serial.print("\n");
- //Calculate the distance (in cm) based on the speed of sound.
- distance = duration/58.2;
- 
-  left();
+  int leftDis=getLeftDistance();
+  String leftText = "Left:";
+  String lString = leftText + leftDis;
+  Serial.println(lString);
+  
+  int rightDis=getRightDistance();
+  String rightText = "Right:";
+  String rString = rightText + rightDis;
+  Serial.println(rString);
+  
+  int frontDis=getForwardDistance();
+  String frontText = "Front:";
+  String fString = frontText + frontDis;
+  Serial.println(fString);
+  
+   
+
+  if (frontDis > minDis && leftDis > minDis && rightDis > minDis) 
+  {
+      forward();
+      Serial. println("forwrd");
+  }  
+  else if (leftDis < 10)
+  {
+    right();
+  }
+  else if (rightDis < 10)
+  {
+    left();
+  }
+  else if ( frontDis < minDis)
+  {
+      if (leftDis < minDis)
+      {  
+        right();
+        Serial. println("right");
+      } 
+      else if ( frontDis < 5 )
+      {
+        backward();
+        Serial. println("back");
+      }
+      else
+      {
+        left();
+        Serial. println("left");
+      }      
+  }
+  else {
+     robotStop();
+  } 
   
   
-  
-  
-  
-  
-  
+     delay(500);
 }
+    
     
