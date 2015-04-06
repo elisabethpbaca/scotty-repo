@@ -5,14 +5,14 @@ int minimumRange = 10; // Minimum range needed
 long duration, distance; // Duration used to calculate distance 
 
 int getForwardDistance() {
-  return getDistance(trigPinP, echoPinP);
+  return getDistance(trigPinF, echoPinF);
 }
 
 int getRightDistance() {
-  return getDistance(trigPinG, echoPinG);
+  return getDistance(trigPinL, echoPinL);
 }
 int getLeftDistance() {
-  return getDistance(trigPinB, echoPinB);
+  return getDistance(trigPinR, echoPinR);
 }
 int getDistance(int trigPin, int echoPin) {
 /* The following trigPin/echoPin cycle is used to determine the

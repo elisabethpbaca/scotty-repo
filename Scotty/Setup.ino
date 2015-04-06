@@ -2,13 +2,12 @@
 
 void setup() {
  Serial.begin (9600);
- pinMode(trigPinP, OUTPUT);
- pinMode(echoPinP, INPUT);
- pinMode(trigPinG, OUTPUT);
- pinMode(echoPinG,INPUT);
- pinMode(trigPinB, OUTPUT);
- pinMode(echoPinB, INPUT);
- pinMode(LEDPin, OUTPUT); // Use LED indicator (if required)
+ pinMode(trigPinF, OUTPUT);
+ pinMode(echoPinF, INPUT);
+ pinMode(trigPinL, OUTPUT);
+ pinMode(echoPinL,INPUT);
+ pinMode(trigPinR, OUTPUT);
+ pinMode(echoPinR, INPUT);
  pinMode(wheelLeftPos, OUTPUT);
  pinMode(wheelRightPos, OUTPUT);
  pinMode(wheelLeftNeg, OUTPUT);
