@@ -8,6 +8,7 @@
 #define trigPinL 13// PURP
 #define echoPinR 2// purple 
 #define trigPinR 3//purple
+#define LEDPin 13 // Onboard LED
 
 #define maxDis 100
 #define minDis 20                                            

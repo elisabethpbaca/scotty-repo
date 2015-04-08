@@ -1,4 +1,4 @@
-#include <common.h>
+#include "common.h"
 
 void setup() {
  Serial.begin (9600);
@@ -12,4 +12,5 @@ void setup() {
  pinMode(wheelRightPos, OUTPUT);
  pinMode(wheelLeftNeg, OUTPUT);
  pinMode(wheelRightNeg, OUTPUT);
+ pinMode(LEDPin,OUTPUT);
 }
