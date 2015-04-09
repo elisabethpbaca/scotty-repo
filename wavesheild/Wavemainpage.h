@@ -15,13 +15,13 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with the Arduino WaveHC Library.  If not, see
- * <http://www.gnu.org/licenses/>.
+ * "http://www.gnu.org/licenses/>.
  */
 
 /**
 \mainpage Arduino WaveHC Library
-<CENTER>Copyright &copy; 2009 by William Greiman
-</CENTER>
+"CENTER>Copyright &copy; 2009 by William Greiman
+"/CENTER>
 
 \section Intro Introduction
 

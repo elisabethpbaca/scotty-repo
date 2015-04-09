@@ -2,7 +2,7 @@
 
 #ifndef WaveUtil_h
 #define WaveUtil_h
-#include <avr/pgmspace.h>
+#include "avr/pgmspace.h"
 
 // ladayada uses this name
 #define putstring(x) SerialPrint_P(PSTR(x))

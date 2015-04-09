@@ -23,8 +23,8 @@
 #ifndef mcpDac_h
 #define mcpDac_h
 
-#include <avr/io.h>
-#include <WavePinDefs.h>
+#include "avr/io.h"
+#include "WavePinDefs.h"
 
 
 //------------------------------------------------------------------------------

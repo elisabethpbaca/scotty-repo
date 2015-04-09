@@ -19,7 +19,7 @@
  */
 #ifndef SdReader_h
 #define SdReader_h
-#include <SdInfo.h>
+#include "SdInfo.h"
 /**
  * \file
  * SdReader class

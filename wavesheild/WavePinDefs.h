@@ -2,7 +2,7 @@
  * \file
  * Pin definitions
  */
-#include <ArduinoPins.h>
+#include "ArduinoPins.h"
 #ifndef WavePinDefs_h
 #define WavePinDefs_h
 

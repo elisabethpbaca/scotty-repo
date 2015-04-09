@@ -17,9 +17,9 @@
  * along with the Arduino Sd2Card Library.  If not, see
  * <http://www.gnu.org/licenses/>.
  */
-#ifndef SDInfo_h
-#define SDInfo_h
-#include <stdint.h>
+#ifndef SdInfo_h
+#define SdInfo_h
+#include "stdint.h"
 //Based on the document:
 //
 //SD Specifications
