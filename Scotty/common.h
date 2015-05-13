@@ -1,9 +1,9 @@
 #define echoPinF 10 // white
 #define trigPinF 11 // grey
-#define wheelLeftPos 7
-#define wheelRightPos 5
-#define wheelLeftNeg 4
-#define wheelRightNeg 6
+#define wheelLeftPos 4
+#define wheelRightPos 7
+#define wheelLeftNeg 6
+#define wheelRightNeg 5
 #define echoPinL 12 // RED
 #define trigPinL 13// PURP
 #define echoPinR 2// purple 
