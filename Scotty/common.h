@@ -1,13 +1,13 @@
 #define echoPinF 10 // white
 #define trigPinF 11 // grey
-#define wheelLeftPos 4
-#define wheelRightPos 7
-#define wheelLeftNeg 6
-#define wheelRightNeg 5
-#define echoPinL 12 // RED
-#define trigPinL 13// PURP
-#define echoPinR 2// purple 
-#define trigPinR 3//purple
+#define wheelLeftPos 7
+#define wheelRightPos 4
+#define wheelLeftNeg 5
+#define wheelRightNeg 6
+#define echoPinR 12 // RED
+#define trigPinR 13// PURP
+#define echoPinL 2// purple 
+#define trigPinL 3//purple
 #define LEDPin 13 // Onboard LED
 
 #define maxDis 100
